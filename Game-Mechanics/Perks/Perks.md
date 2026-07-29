@@ -456,3 +456,18 @@ Direct, reliable disruption of enemy electronics and robotic systems in the fiel
 
 **Chain Protocol** *(Determination 8, Brains 7)* ⚠
 Critical hits on robot enemies have a significantly higher chance to trigger cascade failures. A cascade can spread from the struck component to one adjacent system.
+
+---
+
+## Candidate Perk Names (Not Yet Designed)
+
+Names surfaced during the 2026-07-29 trait-renaming pass (`../Character-Creation/Traits.md`) — each was a strong candidate for the trait it's grouped under, didn't win, but reads like a good name for a *separate, distinct* perk later. **No mechanics designed for any of these yet** — reserved names only, not to be confused with the trait that spawned them.
+
+- **Wirehead**, **Junk Whisperer**, **Scrap Savant** — tinkerer/repair-flavored (surfaced alongside Kludge Sense)
+- **Steady Voice**, **Soft Hands**, **Talk 'Em Down** — de-escalation/social-calm flavored (surfaced alongside De-Escalator)
+- **Ghostwriter**, **Whisper Network**, **No Trace** — information-broker/rumor flavored (surfaced alongside Off the Record)
+- **Tether**, **Ride or Die**, **Steadying Presence** — companion-bond flavored (surfaced alongside Anchor Point)
+- **Cold Logic**, **Clinical Mind** — cerebral/detached flavored (surfaced alongside Detached Intellect)
+- **Storm Sense**, **Chaos Reader** — crisis-reading flavored (surfaced alongside Crisis Instinct)
+- **Redline** — emergency-burst/overexertion flavored (surfaced alongside Adrenaline Engine)
+- **Bush-Hardened** — outdoor-survival flavored (surfaced alongside Outlander)

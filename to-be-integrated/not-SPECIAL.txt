@@ -1,0 +1,9 @@
+[M] ight
+[A] gility
+[P] erception
+[L] uck
+[E] ndurance
+
+[B] rains (i.e., "Intelligence")
+[U] {{ I haven't figured this one out yet }}
+[D] etermination (i.e., your effect upon your companions)

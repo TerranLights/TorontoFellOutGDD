@@ -12,28 +12,29 @@ A "minmax build" is an archetype defined by pushing a small number of [MAPLE-BUD
 
 ---
 
-## Open Question: Does This Scheme Include Luck and/or Utility? — NOT DECIDED HERE
+## Stat Pool — RESOLVED 2026-07-29
 
-Inner Tepenia's MACHINE attribute system has **7 stats** (Might, Agility, Calculation, Humanity, Investigation, Nerve, Engine), so its three-stat combinatorial scheme is C(7,3) = **35** combinations — exactly the 35 numbered folders currently sitting in this directory.
+**Confirmed: 35 combinations, drawn from the 7 skill-bearing MAPLE-BUD stats — Might, Agility, Perception, Endurance, Brains, Utility, Determination. Luck is excluded.**
 
-Toronto Fell Out's [MAPLE-BUD](../../to-be-integrated/not-SPECIAL.md) system has **8 stats** (Might, Agility, Perception, Luck, Endurance, Brains, Utility, Determination). Two of those — **Luck** and **Utility** — don't have obvious MACHINE equivalents:
+Rationale: Luck has no dedicated skill of its own (per `Skills.md`) — it grants a flat bonus to every other skill instead, rather than defining a domain the way Might, Brains, or any other stat does. A "Luck-heavy build" doesn't specialize a character into anything distinct, so it doesn't earn a slot in a build-archetype scheme the way a genuinely skill-bearing stat does. Utility stays in the pool — it governs three real skills (Repair, Engineering, Chemistry) and specializes a character just as concretely as any other stat.
 
-- **Luck** has no dedicated skill of its own (per `Skills.md`) — it grants a flat bonus to every other skill instead. It's an open question whether a stat that works this way even makes sense as one leg of a three-stat "specialization" archetype, since maxing Luck doesn't specialize a character into a domain the way maxing Might or Brains does.
-- **Utility** (crafting/repair/jury-rigging) has no clean MACHINE analogue either — Engine is closer to operational endurance/efficiency than hands-on craft, and Inner Tepenia's crafting-adjacent flavor was spread across Engine and Calculation rather than concentrated in one stat.
-
-**This is a real, unresolved combinatorial design decision, not something to quietly pick a side on:**
-
-- **If Luck and/or Utility are excluded** from this specific build-archetype scheme (keeping a Might/Agility/Perception/Endurance/Brains/Determination-only pool of 6 stats), the scheme stays at C(6,3) = **20** combinations — smaller than Inner Tepenia's 35.
-- **If both are included** (all 8 MAPLE-BUD stats eligible), the scheme becomes C(8,3) = **56** combinations — larger than Inner Tepenia's 35.
-- **If only one of the two is included** (7 eligible stats), the scheme lands back at C(7,3) = **35** — same count as Inner Tepenia, coincidentally, but built from a different 7 stats.
-
-**Do not resolve this. Flag it for the user.** Whichever way it goes changes the folder count, the naming convention below, and which stats can headline a build archetype at all.
+This isn't a coincidental match to Inner Tepenia's own 35 (from their 7-stat MACHINE system, all of which are skill-bearing) — it's the same underlying rule applied to Toronto Fell Out's own stat system: combine only the build-defining, skill-bearing stats. Toronto Fell Out's 7-stat pool just happens to also total 7, for a real structural reason rather than a borrowed number.
 
 ---
 
-## Folder-Naming Convention (once the above is resolved)
+## Folder-Naming Convention — Confirmed Code List
 
-Inner Tepenia's 35 folders are named by number + first-letter code of the three MACHINE stats involved, e.g. `01-MAC` = Might + Agility + Calculation. Toronto Fell Out's equivalent convention, once the Luck/Utility question is settled, should use the same pattern with MAPLE-BUD initials instead: e.g. a Might + Agility + Perception build would be coded `MAP`, a Brains + Utility + Determination build would be coded `BUD`, and so on. The exact eligible-stat pool (6, 7, or 8 stats) determines the final combination count and the specific list of codes — don't generate the list until the pool is confirmed, since regenerating it after picking the wrong pool means renumbering everything.
+Using single-letter MAPLE-BUD initials in canonical order (M, A, P, E, B, U, D — Luck's "L" simply doesn't appear in any code, since it's excluded from the pool), all 35 three-letter combinations:
+
+MAP, MAE, MAB, MAU, MAD, MPE, MPB, MPU, MPD, MEB, MEU, MED, MBU, MBD, MUD,
+APE, APB, APU, APD, AEB, AEU, AED, ABU, ABD, AUD,
+PEB, PEU, PED, PBU, PBD, PUD,
+EBU, EBD, EUD,
+BUD
+
+(15 codes starting with M, 10 starting with A, 6 starting with P, 3 starting with E, 1 starting with B — the same triangular-number pattern Inner Tepenia's own 35 followed, just built from a different 7-letter alphabet.)
+
+Folder naming convention going forward: `##-XXX` (e.g. `01-MAP`, `35-BUD`), matching Inner Tepenia's own `##-MAC`-style format, numbered in the order listed above.
 
 ---
 
@@ -41,7 +42,7 @@ Inner Tepenia's 35 folders are named by number + first-letter code of the three 
 
 The 35 folders currently in this directory (`01-MAC` through `35-INE`) are a direct, untouched copy from Inner Tepenia. **They are not current Toronto Fell Out content.** Their names use Inner Tepenia's MACHINE stat initials, and their populated files (`Secret-Ending_Triggers.md`, `Unique_Interactions_-_High.md`, `Unique_Interactions_-_Low.md` — `Questlines_and_Possibilities.md` is empty in every one) are full of Inner Tepenia-specific lore: Concordia's districts, its factions, its NPCs, its Arcanet.
 
-**Left as-is deliberately, not cleaned up in this pass:** renaming or repopulating them now would mean guessing at the Luck/Utility answer above. They're harmless dead weight sitting in the folder until that question is resolved — at which point the correct move is likely to delete all 35 (or renumber/rename them if the resolved pool happens to also total 35) and regenerate the set fresh from the confirmed stat pool, rather than trying to patch Inner Tepenia content in place. **Do not mistake any of these 35 folders for current Toronto Fell Out canon in the meantime.**
+**Now that the stat pool is confirmed (also 35, but a different 7-letter alphabet — see above), the correct move is to delete all 35 MACHINE-coded folders and regenerate a fresh set of 35 using the MAPLE-BUD-coded names above, empty of content.** Not yet done in this pass — a mechanical folder-rename/regenerate step, separate from actually deciding the stat pool. **Do not mistake any of the existing 35 MACHINE-coded folders for current Toronto Fell Out canon in the meantime.**
 
 ---
 
@@ -54,7 +55,7 @@ Each build-archetype folder — present in Inner Tepenia's 35 folders and the em
 - **`Unique_Interactions_-_High.md`** — special interactions available across Toronto Fell Out's (currently nonexistent) districts/locations when all three of this build's defining stats are high, in the same "minimum 5 per location" density as Inner Tepenia's own samples.
 - **`Unique_Interactions_-_Low.md`** — the inverse: special interactions for the same three stats all sitting low (an underdog/unlucky variant, distinct from the single-stat-low flavor in `Single-Stat_-_Min.md`).
 
-**Do not populate any of these for real yet.** Two blockers stand in the way, independent of each other: the Luck/Utility combinatorial question above, and the fact that Toronto Fell Out has zero designed districts, factions, or NPCs for "per-location interaction" and "NPC trigger" content to reference (see the project's own ground rule against inventing that content ahead of time). Once both are resolved, this file set is the shape to build from.
+**Do not populate any of these for real yet.** The stat pool is now resolved, but one blocker remains: Toronto Fell Out has zero designed districts, factions, or NPCs for "per-location interaction" and "NPC trigger" content to reference (see the project's own ground rule against inventing that content ahead of time). Once that's resolved, this file set is the shape to build from.
 
 ---
 
@@ -64,7 +65,7 @@ Each build-archetype folder — present in Inner Tepenia's 35 folders and the em
 |---|---|
 | `Single-Stat_-_Max.md` | Rewritten for MAPLE-BUD — done |
 | `Single-Stat_-_Min.md` | Rewritten for MAPLE-BUD — done |
-| Luck/Utility inclusion in the 3-stat scheme | **Open — flagged for the user, not decided here** |
-| MAPLE-BUD-initial folder-naming convention | Described above, not yet applied (depends on the open question) |
-| The 35 existing `##-XXX` folders | Left as-is, flagged stale/pending-rename, not renamed or repopulated |
-| Per-folder file set (4 files) | Template documented above, not populated |
+| Luck/Utility inclusion in the 3-stat scheme | **Resolved 2026-07-29 — 35 combinations, Luck excluded, Utility included** |
+| MAPLE-BUD-initial folder-naming convention | **Resolved — full 35-code list documented above** |
+| The 35 existing `##-XXX` folders | Still the old MACHINE-coded set — pending deletion/regeneration with the confirmed MAPLE-BUD codes |
+| Per-folder file set (4 files) | Template documented above, not populated — blocked on districts/factions/NPCs existing |

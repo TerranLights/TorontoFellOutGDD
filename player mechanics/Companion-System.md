@@ -11,11 +11,11 @@ Adapted from Inner Tepenia's companion system as a set of general design princip
 
 ## Party Composition
 
-**Open question, not yet decided:** Inner Tepenia uses a single companion slot, justified specifically by an always-present secondary character (Calethina) that already gave the player a second relationship at all times — without an equivalent, that justification doesn't automatically carry over. Two shapes are worth weighing:
-- **Single companion slot** (Inner Tepenia's model) — simpler, makes each companion choice a stronger individual commitment.
-- **Fallout: New Vegas's model** — one humanoid companion + one non-humanoid (creature) companion simultaneously (e.g., Dogmeat/Rex). Worth considering if Toronto Fell Out wants a companion-animal alongside a human companion.
+**Confirmed:** Toronto Fell Out uses Fallout: New Vegas's dual-slot model — **one human companion + one non-human (creature) companion simultaneously**, exactly like FNV's human-companion-plus-Dogmeat/Rex structure. Not Inner Tepenia's single-slot model (which was justified specifically by Calethina's always-present second relationship — an element Toronto Fell Out doesn't have).
 
-Whichever is chosen, the underlying design rationale should still hold: preserve a protagonist-with-support feel rather than a full multi-character party, and recruiting a new (human) companion requires dismissing the current one.
+**The non-human slot's signature character is confirmed: Muttchow** — Toronto Fell Out's own Dogmeat/Rex-equivalent.
+
+Recruiting a new human companion requires dismissing the current one; the same applies independently to the non-human slot. Both slots preserve a protagonist-with-support feel rather than a full multi-character party.
 
 ## Companion Slot Rules
 

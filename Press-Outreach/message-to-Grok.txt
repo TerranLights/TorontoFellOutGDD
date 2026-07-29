@@ -1,0 +1,46 @@
+Hey — I want to pitch you a game I'm building and get your read on paid YouTuber sponsorship candidates,
+along the same lines as before. Here's the actual premise, in full, so you're not guessing:
+
+1.) It's Toronto Fell Out — a Sci-Fi/post-apocalyptic CRPG that's deliberately orthodox in its bones: real-time
+1st-/3rd-person combat, classic 3D-era Fallout mechanics and pacing (think Fallout 3/New Vegas/4), open-world
+exploration, companions, factions, branching choices with real consequences. Nothing experimental about the
+genre it's working in.
+
+2.) What makes it distinctive is the setting and the tone, not a genre twist: it's set in a ruined, radioactive
+2097 Toronto — the CN Tower half-collapsed and looming over everything, the Eaton Centre gutted and looted,
+the Distillery District repurposed into a barter economy, abandoned Tim Hortons locations rebuilt into
+survivor outposts. It plays the apocalypse completely straight as a setting, and then layers a very specific,
+very dry Canadian dark humor on top of it — characters with backgrounds like "Former TTC Driver," "Kensington
+Market Witch," and "Scarborough Tech Bro," a wasteland where people still reflexively say sorry, and
+radioactive snowstorms that somehow feel like a punchline and a real hazard at the same time.
+
+3.) Underneath the humor it's got real mechanical depth for the CRPG crowd specifically: an eight-attribute
+stat system (MAPLE-BUD) governing 21 skills, a full trait/perk framework built out of Fallout: New Vegas's own
+design DNA (flat threshold checks, no dice rolls, a "minimum five solutions per quest" design rule, a
+Fallout-precedent law where New Vegas wins every design tie-break unless a rule says otherwise), a
+Fallout-New-Vegas-style dual-slot companion system (one human companion plus a non-human one — a dog-type
+companion named Muttchow, playing the same role Dogmeat/Rex do in Fallout), and a from-scratch reputation
+system replacing Karma with something that ties directly into the game's own title (the working idea: a
+hidden meter tracking whether the player is helping the city's fractured survivor communities actually cohere
+back together, or finishing the job of tearing them apart — Toronto didn't just get nuked, it had a
+falling-out).
+
+4.) No sentient robots, no android companions — every character in this one is a person. That's actually a
+deliberate departure from another project of mine, and worth knowing going in: this pitch is completely
+different in kind from the "big personality, over-the-top adult content" angle I've asked you about before
+for a different game. Toronto Fell Out isn't that. It's an adult-rated CRPG (Steam Mature/18+, standard
+Baldur's Gate 3-register romance content — real, contextual, not gratuitous), but the actual selling point is
+tone and setting, not shock value.
+
+5.) Same as before, the game leans on AI assistance for a meaningful chunk of its narrative/questline
+drafting and design work, all human-directed and heavily rewritten — that's a real Steam disclosure
+obligation I already have a plan for, not something I'm trying to hide.
+
+Given all that — a fundamentally traditional CRPG wrapped around a very specific, very Canadian post-apoc
+dark comedy, made by one dev leaning on AI tools for a chunk of the drafting — what kinds of YouTubers or
+streamers would actually be a good fit for a paid sponsorship read? I'm thinking specifically about creators
+who already cover classic-CRPG/Fallout-adjacent content, or who have a track record of enjoying games that
+play a bleak premise completely straight while still being funny about it, or who lean into
+self-deprecating/absurdist national humor in a way that would vibe with the Canadian angle specifically. If
+it helps to look at what accounts like that post or reshare on social media to get a read on their actual
+sensibilities before I reach out, go ahead and factor that in.
